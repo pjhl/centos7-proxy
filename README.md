@@ -7,7 +7,7 @@ Download installation script
 curl -o install.sh https://raw.githubusercontent.com/pjhl/centos7-proxy/master/install.sh && chmod +x install.sh
 ```
 
-Install configured squid:
+Install configured squid (replace *111111* with your password):
 
 ```bash
 PROXY_PASS=111111 ./install.sh

@@ -8,3 +8,4 @@ curl -o /etc/squid/squid.conf https://raw.githubusercontent.com/pjhl/centos7-pro
 # Add user
 htpasswd -bc /etc/squid/.htpasswd user $PROXY_PASS
 systemctl start squid
+systemctl status squid
