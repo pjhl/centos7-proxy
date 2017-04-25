@@ -1,4 +1,5 @@
-Tested on Centos 7.3.1611 x64.
+This script will install anonymous squid proxy with password access from any IP.
+Tested on Centos 7.3.1611 x64 and squid 3.5.20.
 
 Install
 =======
