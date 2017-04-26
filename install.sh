@@ -1,6 +1,5 @@
 #!/bin/bash
 
-yum update -y
 yum install -y squid httpd-tools
 chkconfig squid on
 # Copy config from github
